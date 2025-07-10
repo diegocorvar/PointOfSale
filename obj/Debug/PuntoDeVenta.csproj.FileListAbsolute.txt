@@ -9,3 +9,7 @@ C:\PuntoDeVenta\PuntoDeVenta\obj\Debug\PuntoDeVenta.exe
 C:\PuntoDeVenta\PuntoDeVenta\obj\Debug\PuntoDeVenta.pdb
 C:\PuntoDeVenta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Forms.LoginFrm.resources
 C:\PuntoDeVenta\PuntoDeVenta\obj\Debug\PuntoDeVenta.MainFrm.resources
+C:\PuntoDeVenta\PuntoDeVenta\bin\Debug\System.Data.SQLite.dll
+C:\PuntoDeVenta\PuntoDeVenta\bin\Debug\System.Data.SQLite.xml
+C:\PuntoDeVenta\PuntoDeVenta\obj\Debug\PuntoDeV.97B5192D.Up2Date
+C:\PuntoDeVenta\PuntoDeVenta\bin\Debug\DataBase\PointOfSale_db.db
