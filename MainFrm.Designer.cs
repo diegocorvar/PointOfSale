@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "MainFrm";
             this.Text = "Sistema de Punto de Venta";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.MainFrm_Load);
             this.ResumeLayout(false);
 

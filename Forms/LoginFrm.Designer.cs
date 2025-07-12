@@ -99,6 +99,7 @@
             this.btnLogin.Text = "Iniciar sesión";
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            this.btnLogin.Enter += new System.EventHandler(this.btnLogin_Click);
             // 
             // LoginFrm
             // 
