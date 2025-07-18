@@ -19,6 +19,9 @@ namespace PuntoDeVenta
             // this closes all open forms by clicking on the x button at the top right
             this.FormClosing += MainFrm_FormClosing;
             this.StartPosition = FormStartPosition.CenterScreen;
+
+            this.FormBorderStyle = FormBorderStyle.None;
+            btnExit.BackColor = Color.FromArgb(218, 13, 75);
         }
 
         private void MainFrm_FormClosing(object sender, FormClosingEventArgs e)
@@ -27,6 +30,27 @@ namespace PuntoDeVenta
         }
 
         private void MainFrm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+
+            DialogResult exitConfirmation = MessageBox.Show(
+                    "¿Seguro que quieres salir del punto de venta?",
+                    "Saliendo del Punto de Venta",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Question
+                );
+            if (exitConfirmation == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+            
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
